@@ -10,13 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     >
+    <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Studio</title>
   </head>
   <body>
     
     <!--Header-->
-    <header class="section header">
+    <header class="header">
       <div class="container content">
         <nav class="navigation">
           <a href="./index.html" class="logo"
@@ -58,7 +59,7 @@
       <!--Features-->
       <section class="section">
         <div class="container features">
-          <h2></h2>
+          <h2 class="visually-hidden">Переваги</h2>
           <ul class="list">
             <li>
               <h3 class="atention-to-detail">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -139,8 +140,10 @@
                 width="270"
                 height="260"
               >
-              <h3 class="title-ihor-demyanenko">Ігор Дем'яненко</h3>
-              <p class="paragraph-ihor-demyanenko">Product Designer</p>
+              <div class="our-team-date">
+                <h3 class="title-ihor-demyanenko">Ігор Дем'яненко</h3>
+                <p class="paragraph-ihor-demyanenko">Product Designer</p>
+              </div>
             </li>
             <li class="olga-repina">
               <img
@@ -149,8 +152,10 @@
                 width="270"
                 height="260"
               >
-              <h3 class="title-olga-repina">Ольга Рєпіна</h3>
-              <p class="paragraph-olga-repina">Frontend Developer</p>
+              <div class="our-team-date">
+                <h3 class="title-olga-repina">Ольга Рєпіна</h3>
+                <p class="paragraph-olga-repina">Frontend Developer</p>
+              </div>
             </li>
             <li class="mykola-tarasov">
               <img
@@ -159,8 +164,10 @@
                 width="270"
                 height="260"
               >
-              <h3 class="title-mykola-tarasov">Микола Тарасов</h3>
-              <p class="pagragraph-mykola-tarasov">Marketing</p>
+              <div class="our-team-date">
+                <h3 class="title-mykola-tarasov">Микола Тарасов</h3>
+                <p class="pagragraph-mykola-tarasov">Marketing</p>
+              </div>
             </li>
             <li class="mykhailo-yermakov">
               <img
@@ -169,8 +176,10 @@
                 width="270"
                 height="260"
               >
-              <h3 class="title-mykhailo-yermakov">Михайло Єрмаков</h3>
-              <p class="paragraphmykhailo-yermakov">UI Designer</p>
+              <div class="our-team-date">
+                <h3 class="title-mykhailo-yermakov">Михайло Єрмаков</h3>
+                <p class="paragraphmykhailo-yermakov">UI Designer</p>
+              </div>
             </li>
           </ul>
       </div>
@@ -178,7 +187,7 @@
     </main>
 
     <!--Footer-->
-    <footer class="section basement-studio">
+    <footer class="basement-studio">
       <div class="container footer">
         <a href="./index.html" class="basement-logo"
           ><span class="basement-logo-web">Web</span
